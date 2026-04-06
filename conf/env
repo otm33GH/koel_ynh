@@ -51,8 +51,7 @@ MEMORY_LIMIT=
 # IMPORTANT: It's HIGHLY recommended to use 'x-sendfile' or 'x-accel-redirect' if
 # you plan to use the Koel mobile apps.
 # ##################################################
-STREAMING_METHOD=x-accel-redirect
-
+STREAMING_METHOD=php
 
 # Full text search driver.
 # Koel supports all drivers supported by Laravel (see https://laravel.com/docs/9.x/scout).
